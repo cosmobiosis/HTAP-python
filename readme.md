@@ -10,7 +10,7 @@ API exposed is within the top level Query abstraction layer while I decided to u
 
 These five abstraction layers are: Query->Table(manage logic and index)->Cache(Manage in-memory Pages)->Disk Helper(Manage interaction with durable in-disk files)
 
-The project also supports concurrent transactions. For any concurrent transaction programs, please install readerwriterlock
+The project also supports concurrent transactions. For running any concurrent transaction programs, please install readerwriterlock python package as the system enviroment requirement.
 
 python3 -m pip install -U readerwriterlock
 
