@@ -6,7 +6,7 @@ The paper can also be downloaded within this repo (filename: l-store.pdf)
 
 Testers exposes basic usage of API for lstore database. 
 
-API exposed is within the top level Query abstraction layer while I decided to use four abstraction layers in total.
+API exposed for tester and user-usage is within the top level Query abstraction layer while I decided to use four abstraction layers in total.
 
 These four abstraction layers are: Query->Table(manage logic and index)->Cache(Manage in-memory Pages)->Disk Helper(Manage interaction with durable in-disk files)
 
