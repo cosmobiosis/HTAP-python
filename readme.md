@@ -6,9 +6,9 @@ The paper can also be downloaded within this repo (filename: l-store.pdf)
 
 Testers exposes basic usage of API for lstore database. 
 
-API exposed is within the top level Query abstraction layer while I decided to use five abstraction layers in total.
+API exposed is within the top level Query abstraction layer while I decided to use four abstraction layers in total.
 
-These five abstraction layers are: Query->Table(manage logic and index)->Cache(Manage in-memory Pages)->Disk Helper(Manage interaction with durable in-disk files)
+These four abstraction layers are: Query->Table(manage logic and index)->Cache(Manage in-memory Pages)->Disk Helper(Manage interaction with durable in-disk files)
 
 The project also supports concurrent transactions. For running any concurrent transaction programs, please use the following pip command to install readerwriterlock python package as the system enviroment requirement.
 
